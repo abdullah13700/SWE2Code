@@ -1,0 +1,344 @@
+body
+{
+  font-family: sans-serif;  
+  background-color:#e4dea8;
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;   
+     
+}
+
+ul{
+    padding-top: 87px;
+    margin: 0;
+}
+header{
+    background:#e3dc97;
+    padding-top: 30px;
+    min-height: 150px;
+    border-bottom: rgb(188, 180, 110) 5px solid;
+      }
+header a{
+    padding-top: 100px;
+    color: rgb(72, 26, 0);
+    text-decoration: none;
+    font-size: 19px;
+        }
+
+header li{
+    padding-top: 80px;
+    float : right;
+    display: inline;
+    padding: 0 40px 0 40px;
+}
+header #tit {
+    float: right;
+    
+}
+
+header nav{
+    float: left;
+    margin-top: 10px;
+}
+#option{
+    color: rgb(58, 22, 1);
+    font-size: 19px;
+    text-decoration: none;
+}
+#terms{
+    padding-right: 20px;
+    color: rgb(58, 22, 1);
+    font-size: 19px;
+    text-decoration: none;
+    font-family: sans-serif; 
+}
+
+#option input[type="pp"]{
+    padding: 4;
+    height: 25px;
+    width: 250px;
+}
+
+.button{
+    height: 38px;
+    background:#dad49a;
+    padding-left: 40;
+    padding-right: 40;
+}
+
+#b1{
+    padding-right: 105px;
+    padding-top: 7px;
+}
+
+.bp{
+    position: relative;
+    right: 430px;
+    top: -2020px;
+    
+}     
+.bb{
+    position: relative;
+    right: 715px;
+    top: -2060px;
+    
+}   
+
+
+.parent{
+
+    display: inline-block;
+    
+}
+
+.a1{
+    position: relative;
+    right:130px;
+    top: 60px;
+    
+    
+}
+.a2{
+    position: relative;
+    right:430px;
+    top: -49px;
+}
+.a3{
+    position: relative;
+    right:730px;
+    top: -157px; 
+}
+
+
+.a4{
+    position: relative;
+    right:130px;
+    top: -157px;
+}
+.a5{
+    position: relative;
+    right:430px;
+    top: -266px;
+}
+
+.a6{
+    position: relative;
+    right:730px;
+    top: -375px;
+}
+
+.a7{
+    position: relative;
+    right:130px;
+    top: -375px;
+}
+.a8{
+    position: relative;
+    right:430px;
+    top: -484px;
+}
+.a9{
+    position: relative;
+    right:730px;
+    top: -593px;
+}
+
+.a10{
+    position: relative;
+    right:1030px;
+    top: -702px;
+}
+
+.a11{
+    position: relative;
+    right:130px;
+    top: -702px;
+}
+
+.a12{
+    position: relative;
+    right:430px;
+    top: -811px;
+}
+
+.a13{
+    position: relative;
+    right:730px;
+    top: -920px;
+    
+    
+}
+
+.a14{
+    position: relative;
+    right:1030px;
+    top: -1029px;
+    
+    
+}
+
+.a15{
+    position: relative;
+    right:130px;
+    top: -1029px;
+    
+}
+
+.a16{
+    position: relative;
+    right:430px;
+    top: -1138px;
+    
+    
+}
+
+
+
+.a17{
+    position: relative;
+    right:730px;
+    
+    top: -1247px;
+    
+}
+
+.a18{
+    position: relative;
+    right:130px;
+    top: -1247px;
+    
+}
+
+.a19{
+    position: relative;
+    right:130px;
+    top: -1247px;
+    
+}
+.a20{
+    position: relative;
+    right:430px;
+    top: -1356px;
+    
+}
+.a21{
+    position: relative;
+    right:130px;
+    
+    top: -1356px;
+    
+}
+.a22{
+    position: relative;
+    right:430px;
+    
+    top: -1465px;
+}
+
+.a23{
+    position: relative;
+    right:130px;
+    top: -1465px;
+    
+}
+
+.a24{
+    position: relative;
+    right:130px;
+    
+    top: -1465px;
+}
+.a25{
+    position: relative;
+    right:430px;
+    
+    top: -1574px;
+}
+.a26{
+    position: relative;
+    right:130px;
+    
+    top: -1574px;
+}
+.a27{
+    position: relative;
+    right:430px;
+    top: -1683px;
+   
+}
+
+.a28{
+    position: relative;
+    right:740px;
+    
+    top: -1792px;
+}
+
+.a29{
+    position: relative;
+    right:130px;
+   
+    top: -1792px;
+}
+
+.a30{
+    position: relative;
+    right:130px;
+    top: -1792px;
+    
+}
+
+.a31{
+    position: relative;
+    right:430px;
+    top: -1926px;
+}
+.a32{
+    position: relative;
+    right:730px;
+    top: -2060px;
+}
+#kid4{
+    float: left;
+    padding-left:280px ;
+    padding-top: 370px;
+} 
+
+
+
+@media(max-width : 768px) {
+    header  ,
+    header nav,
+    header nav li,
+    #loginIn,
+    #b1,
+    #b2
+    
+  {
+      float : none;
+      text-align: center;
+      width: 100%
+  
+  } 
+  header{
+  padding-bottom: 20px;
+  
+  }
+  #loginIn .button{
+      display:block;
+      width:100%
+  }
+  #option input[type="pp"]
+  {
+      padding: 4;
+      height: 25px;
+      width: 250px;
+      
+  }
+                          }

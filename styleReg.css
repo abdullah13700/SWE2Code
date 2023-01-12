@@ -1,0 +1,74 @@
+body
+{
+  font-family: sans-serif;  
+  background-color:#e4dea8;
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+
+
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+ul{
+    padding-top: 87px;
+    margin: 0;
+    
+}
+header{
+    background:#e3dc97;
+    padding-top: 30px;
+    min-height: 150px;
+    border-bottom: rgb(188, 180, 110) 5px solid;
+}
+header a{
+    padding-top: 100px;
+    
+    color: rgb(72, 26, 0);
+    text-decoration: none;
+  font-size: 19px;
+}
+
+header li{
+    padding-top: 80px;
+    float : right;
+    display: inline;
+    padding: 0 40px 0 40px;
+    
+}
+header #tit {
+    float: right;
+    
+}
+
+header nav{
+    float: left;
+    margin-top: 10px;
+}
+#registerInformation{
+    color: rgb(58, 22, 1);
+    font-size: 19px;
+    text-decoration: none;
+    padding-top: 110px;
+    padding-right: 630px;
+
+}
+
+#registerInformation2{
+    padding-right: 47px;
+}
+#registerInformation3{
+    padding-right: 10px;
+}
+#registerInformation4{
+    padding-right: 47px;
+}
+#registerInformation5{
+    padding-right: 10px;
+}
+

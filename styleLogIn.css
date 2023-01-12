@@ -1,0 +1,131 @@
+body
+{
+  font-family: sans-serif;  
+  background-color:#e4dea8;
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;    
+}
+ul{
+    padding-top: 87px;
+    margin: 0;
+}
+header{
+    background:#e3dc97;
+    padding-top: 30px;
+    min-height: 150px;
+    border-bottom: rgb(188, 180, 110) 5px solid;
+      }
+header a{
+    padding-top: 100px;
+    color: rgb(72, 26, 0);
+    text-decoration: none;
+    font-size: 19px;
+        }
+
+header li{
+    padding-top: 80px;
+    float : right;
+    display: inline;
+    padding: 0 40px 0 40px;
+}
+header #tit {
+    float: right;
+    
+}
+
+header nav{
+    float: left;
+    margin-top: 10px;
+}
+#loginIn{
+    color: rgb(58, 22, 1);
+    font-size: 19px;
+    text-decoration: none;
+    padding-top: 50px;
+    padding-right: 550px;
+
+}
+#loginIn input[type="email"]{
+    padding: 4;
+    height: 25px;
+    width: 250px;
+}
+#loginIn input[type="password"]{
+    padding: 4;
+    height: 25px;
+    width: 250px;
+    
+}
+.button{
+    height: 38px;
+    background:#dad49a;
+    padding-left: 40;
+    padding-right: 40;
+}
+
+#b1{
+    padding-right: 105px;
+    padding-top: 7px;
+}
+#b2{
+    padding-top: 5px;
+    padding-right: 90px;
+    
+}
+
+@media(max-width : 768px) {
+  header  ,
+  header nav,
+  header nav li,
+  #loginIn,
+  #b1,
+  #b2
+  
+{
+    float : none;
+    text-align: center;
+    width: 100%
+
+} 
+header{
+padding-bottom: 20px;
+
+}
+#loginIn .button{
+    display:block;
+    width:100%
+}
+#loginIn input[type="email"]
+{
+    width : 100%;
+    margin-bottom: 5px;
+}
+                        }
+       
+ #s1
+ { 
+    padding-right:60px;
+ }                                    
+ #s2
+ { 
+    padding-right:75px;
+ }  
+ #newPassword {
+    color: rgb(125, 130, 81);
+    text-decoration: none;
+   position:relative;
+    font-size: 15px;
+   
+       top : 0px;
+        padding-right:120px ;
+        margin: auto;
+        overflow: hidden;  
+        font-family: sans-serif;  
+                } 
